@@ -2,20 +2,33 @@ This is a A healthcare patient management application that allows patients to ea
 
 
 
-## Getting Started
+⚙️ Tech Stack
+Next.js
+Appwrite
+Typescript
+TailwindCSS
+ShadCN
+Twilio
+🔋 Features
+👉 Register as a Patient: Users can sign up and create a personal profile as a patient.
 
-First, run the development server:
+👉 Book a New Appointment with Doctor: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👉 Manage Appointments on Admin Side: Administrators can efficiently view and handle all scheduled appointments.
 
+👉 Confirm/Schedule Appointment from Admin Side: Admins can confirm and set appointment times to ensure they are properly scheduled.
+
+👉 Cancel Appointment from Admin Side: Administrators have the ability to cancel any appointment as needed.
+
+👉 Send SMS on Appointment Confirmation: Patients receive SMS notifications to confirm their appointment details.
+
+👉 Complete Responsiveness: The application works seamlessly on all device types and screen sizes.
+
+👉 File Upload Using Appwrite Storage: Users can upload and store files securely within the app using Appwrite storage services.
+
+👉 Manage and Track Application Performance Using Sentry: The application uses Sentry to monitor and track its performance and detect any errors.
+
+and many more, including code architecture and reusability
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
